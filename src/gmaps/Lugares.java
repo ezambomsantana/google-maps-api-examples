@@ -18,7 +18,7 @@ public class Lugares {
         
         GeoApiContext context = new GeoApiContext().setApiKey("chave");    
         
-        String local = "Bar do Jorge"; // local a ser buscado
+        String local = "Anhembi Morumbi"; // local a ser buscado
         
         PlacesSearchResponse response =  PlacesApi.textSearchQuery(context, local).await(); // Faz a consulta sobre o lugar selecionado
         PlacesSearchResult results[] = response.results; // podem ser retornados vários resultados.
