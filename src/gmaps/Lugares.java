@@ -16,7 +16,7 @@ public class Lugares {
      */
     public static void main(String[] args) throws Exception {
         
-        GeoApiContext context = new GeoApiContext().setApiKey("AIzaSyAE0OZCWv6WwLB_rF9_h_yHbwtOP7qpaWw");    
+        GeoApiContext context = new GeoApiContext().setApiKey("chave");    
         
         String local = "Bar do Jorge"; // local a ser buscado
         
